@@ -18,7 +18,7 @@
 	});
 </script>
 
-<article class="prose lg:prose-xl px-8 m-auto my-4 sm:my-16">
+<article class="prose lg:prose-xl max-w-full px-10 m-auto my-4 sm:my-16">
 	<img class="rounded-md" src={postImg} alt="blog post" />
 	<h1>{data.metadata.title}</h1>
 	<p>Published: {data.metadata.datePublished}</p>
@@ -26,3 +26,9 @@
 
 	<SvelteMarkdown source={data.content} />
 </article>
+
+<style>
+	.prose {
+		--tw-prose-headings:#fff;
+	}
+</style>
