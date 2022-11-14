@@ -8,28 +8,23 @@
 
 
 <url>
-  <loc>https://fgcjamaica.github.io/</loc>
-  <lastmod>2022-09-08T01:08:19+00:00</lastmod>
+  <loc>https://jc-robotics.github.io/</loc>
+  <lastmod>2022-11-14T15:15:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://fgcjamaica.github.io/about</loc>
-  <lastmod>2022-09-08T01:08:19+00:00</lastmod>
+  <loc>https://jc-robotics.github.io/resources/blog</loc>
+  <lastmod>2022-11-14T15:15:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://fgcjamaica.github.io/blog</loc>
-  <lastmod>2022-09-08T01:08:19+00:00</lastmod>
+  <loc>https://jc-robotics.github.io/about</loc>
+  <lastmod>2022-11-14T15:15:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://fgcjamaica.github.io/contact</loc>
-  <lastmod>2022-09-08T01:08:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://fgcjamaica.github.io/blog/captain-log-1</loc>
-  <lastmod>2022-09-08T01:08:19+00:00</lastmod>
+  <loc>https://jc-robotics.github.io/resources/blog/programming-mecannum-wheels</loc>
+  <lastmod>2022-11-14T15:15:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
