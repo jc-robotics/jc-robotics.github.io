@@ -46,7 +46,7 @@ Now the robot has the ability to move laterally in any direction—almost. For m
 > **Note**
 > Set one side of the robot’s wheels to be. If after inverting the right wheels the robot is always going backwards then try inverting the left side instead.
 
-Finally, the robot can move laterally and only needs to rotate. Fortunately, the robot can be easilyg horizontal movement t programmed to turn, even at the same time as it’s driving. We will use a second joystick for this purpose, usino turn the robot (the x-axis).
+Finally, the robot can move laterally and only needs to rotate. Fortunately, the robot can be easily added. We will use a second joystick (the x-axis) for this purpose, turning the robot.
 
 Actually, it's rather simple. If the turn value is applied to the lateral movement value, each wheel will turn smoothly. A motor controller can only take values up to 1 (or -1), which is the only problem. Any larger value just scales down to 1, which will have an impact on our outcomes - distorting the robot’s movements.
 
@@ -79,7 +79,7 @@ START
 	SET leftFront to leftFront / max
 	SET rightFront to rightFront / max
 	SET leftBack to leftBack / max
-	SET rightBackto rightBack / max
+	SET rightBack to rightBack / max
 
 
 STOP.
