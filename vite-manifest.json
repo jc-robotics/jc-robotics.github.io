@@ -3,13 +3,13 @@
     "file": "_app/immutable/assets/jc-logo-d894bf84.png",
     "src": "src/lib/assets/images/jc-logo.png"
   },
-  "src/lib/images/hero.svg": {
-    "file": "_app/immutable/assets/hero-3f6fb334.svg",
-    "src": "src/lib/images/hero.svg"
-  },
   "src/lib/images/immac-outreach.jpg": {
     "file": "_app/immutable/assets/immac-outreach-2ca6d965.jpg",
     "src": "src/lib/images/immac-outreach.jpg"
+  },
+  "src/lib/images/hero.svg": {
+    "file": "_app/immutable/assets/hero-3f6fb334.svg",
+    "src": "src/lib/images/hero.svg"
   },
   "src/lib/assets/images/send-icon.svg": {
     "file": "_app/immutable/assets/send-icon-d7d5630c.svg",
@@ -51,20 +51,20 @@
       "_app/immutable/assets/stephanie-williams--feat-10f6bda6.webp"
     ]
   },
-  "src/lib/assets/images/profiles/chelsea-rerrie.webp": {
-    "file": "_app/immutable/chunks/chelsea-rerrie-92920b6d.js",
-    "src": "src/lib/assets/images/profiles/chelsea-rerrie.webp",
-    "isDynamicEntry": true,
-    "assets": [
-      "_app/immutable/assets/chelsea-rerrie-12e42fd7.webp"
-    ]
-  },
   "src/lib/assets/images/profiles/ajani-hickling.webp": {
     "file": "_app/immutable/chunks/ajani-hickling-efeff27d.js",
     "src": "src/lib/assets/images/profiles/ajani-hickling.webp",
     "isDynamicEntry": true,
     "assets": [
       "_app/immutable/assets/ajani-hickling-f8265485.webp"
+    ]
+  },
+  "src/lib/assets/images/profiles/chelsea-rerrie.webp": {
+    "file": "_app/immutable/chunks/chelsea-rerrie-92920b6d.js",
+    "src": "src/lib/assets/images/profiles/chelsea-rerrie.webp",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/chelsea-rerrie-12e42fd7.webp"
     ]
   },
   "src/lib/assets/images/profiles/paul-pounall.webp": {
@@ -75,9 +75,13 @@
       "_app/immutable/assets/paul-pounall-661baeb2.webp"
     ]
   },
-  "src/lib/assets/images/instagram.svg": {
-    "file": "_app/immutable/assets/instagram-3a4f962a.svg",
-    "src": "src/lib/assets/images/instagram.svg"
+  "src/lib/assets/images/profiles/stephanie-williams.webp": {
+    "file": "_app/immutable/chunks/stephanie-williams-88e5bd49.js",
+    "src": "src/lib/assets/images/profiles/stephanie-williams.webp",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/stephanie-williams-83fdb04e.webp"
+    ]
   },
   "src/lib/assets/images/profiles/orville-daley.webp": {
     "file": "_app/immutable/chunks/orville-daley-353746a7.js",
@@ -87,17 +91,13 @@
       "_app/immutable/assets/orville-daley-05f8b250.webp"
     ]
   },
+  "src/lib/assets/images/instagram.svg": {
+    "file": "_app/immutable/assets/instagram-3a4f962a.svg",
+    "src": "src/lib/assets/images/instagram.svg"
+  },
   "src/lib/assets/images/github.svg": {
     "file": "_app/immutable/assets/github-b2bdc513.svg",
     "src": "src/lib/assets/images/github.svg"
-  },
-  "src/lib/assets/images/profiles/stephanie-williams.webp": {
-    "file": "_app/immutable/chunks/stephanie-williams-88e5bd49.js",
-    "src": "src/lib/assets/images/profiles/stephanie-williams.webp",
-    "isDynamicEntry": true,
-    "assets": [
-      "_app/immutable/assets/stephanie-williams-83fdb04e.webp"
-    ]
   },
   "src/lib/assets/images/profiles/gavin-samuels.webp": {
     "file": "_app/immutable/chunks/gavin-samuels-e70857aa.js",
@@ -108,12 +108,12 @@
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.544_fhgkwirxvgjw2igda6zmhiisma/node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-562d14cc.js",
+    "file": "_app/immutable/start-b7f2fe68.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.544_fhgkwirxvgjw2igda6zmhiisma/node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-c1eee52a.js",
-      "_singletons-e69ff7e3.js",
+      "_singletons-ec149511.js",
       "_preload-helper-28b7b303.js"
     ],
     "dynamicImports": [
@@ -129,12 +129,12 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-8c5c8b35.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-8f629464.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-c1eee52a.js",
-      "_navigation-b58f78ef.js"
+      "_navigation-8b032684.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-62ade677.css"
@@ -144,12 +144,12 @@
     ]
   },
   "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.544_fhgkwirxvgjw2igda6zmhiisma/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-84f4d1b0.js",
+    "file": "_app/immutable/components/error.svelte-7e2d5497.js",
     "src": "node_modules/.pnpm/@sveltejs+kit@1.0.0-next.544_fhgkwirxvgjw2igda6zmhiisma/node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-c1eee52a.js",
-      "_singletons-e69ff7e3.js"
+      "_singletons-ec149511.js"
     ]
   },
   "src/routes/contact/+layout.svelte": {
@@ -189,12 +189,12 @@
     ]
   },
   "src/routes/contact/+page.svelte": {
-    "file": "_app/immutable/components/pages/contact/_page.svelte-1761f892.js",
+    "file": "_app/immutable/components/pages/contact/_page.svelte-e326266d.js",
     "src": "src/routes/contact/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-c1eee52a.js",
-      "_navigation-b58f78ef.js",
+      "_navigation-8b032684.js",
       "_index-6203779a.js"
     ],
     "assets": [
@@ -279,8 +279,8 @@
       "__page-9ef87fc3.js"
     ]
   },
-  "_singletons-e69ff7e3.js": {
-    "file": "_app/immutable/chunks/singletons-e69ff7e3.js",
+  "_singletons-ec149511.js": {
+    "file": "_app/immutable/chunks/singletons-ec149511.js",
     "imports": [
       "_index-c1eee52a.js"
     ]
@@ -291,10 +291,10 @@
   "_preload-helper-28b7b303.js": {
     "file": "_app/immutable/chunks/preload-helper-28b7b303.js"
   },
-  "_navigation-b58f78ef.js": {
-    "file": "_app/immutable/chunks/navigation-b58f78ef.js",
+  "_navigation-8b032684.js": {
+    "file": "_app/immutable/chunks/navigation-8b032684.js",
     "imports": [
-      "_singletons-e69ff7e3.js"
+      "_singletons-ec149511.js"
     ]
   },
   "__layout-1daba58d.js": {
@@ -343,7 +343,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-03dff092.js",
+    "file": "_app/immutable/chunks/0-76a4ac72.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -352,7 +352,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-eff346ed.js",
+    "file": "_app/immutable/chunks/1-b6f29563.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -386,7 +386,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-e79fdd9f.js",
+    "file": "_app/immutable/chunks/5-856b14d7.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
@@ -433,21 +433,21 @@
     "src": "src/lib/assets/images/profiles/gavin-samuels--feat.webp",
     "isDynamicEntry": true
   },
-  "src/routes/resources/blog/+page.css": {
-    "file": "_app/immutable/assets/_page-f7c21d3d.css",
-    "src": "src/routes/resources/blog/+page.css"
-  },
-  "src/routes/resources/blog/[slug]/+page.css": {
-    "file": "_app/immutable/assets/_page-1272daef.css",
-    "src": "src/routes/resources/blog/[slug]/+page.css"
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-1881f58b.css",
+    "src": "src/routes/+page.css"
   },
   "src/routes/contact/+layout.css": {
     "file": "_app/immutable/assets/_layout-341d6943.css",
     "src": "src/routes/contact/+layout.css"
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-1881f58b.css",
-    "src": "src/routes/+page.css"
+  "src/routes/resources/blog/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page-1272daef.css",
+    "src": "src/routes/resources/blog/[slug]/+page.css"
+  },
+  "src/routes/resources/blog/+page.css": {
+    "file": "_app/immutable/assets/_page-f7c21d3d.css",
+    "src": "src/routes/resources/blog/+page.css"
   },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-62ade677.css",
