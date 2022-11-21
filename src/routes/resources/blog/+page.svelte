@@ -11,6 +11,9 @@
 	import {fly} from 'svelte/transition'
 </script>
 
+<svelte:head>
+	<title>Blog</title>
+</svelte:head>
 <main in:fly="{{ y:50, duration:500,delay:300}}" class="relative mt-5 md:mt-10 mb-10 px-10">
 	<section class="flex md:container min-h-[50vh] md:h-[70vh] mx-auto w-full">
 		<SpotlightPost metadata={spotlightPost} />

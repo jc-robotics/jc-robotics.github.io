@@ -18,6 +18,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>{data.metadata.title}</title>
+</svelte:head>
+
 <article class="prose lg:prose-xl max-w-full px-10 m-auto my-4 sm:my-16">
 	<img class="rounded-md" src={postImg} alt="blog post" />
 	<h1>{data.metadata.title}</h1>
@@ -29,6 +33,6 @@
 
 <style>
 	.prose {
-		--tw-prose-headings:#fff;
+		--tw-prose-headings: #fff;
 	}
 </style>
